@@ -1,0 +1,88 @@
+html {
+  box-sizing: border-box;
+  font-family: Merriweather, serif;
+  line-height: 1.5;
+  background-color: #fff;
+  color: #fff;
+  text-align: center;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.left img {
+  float: left;
+  width: 40px;
+
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+  padding: .4rem 0;
+  background-color: #d05c2e;
+}
+
+.clearfix::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.right img {
+  float: right;
+  width: 40px;
+}
+
+.nav {
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: #d05c2e;
+}
+
+.nav a {
+  display: inline-block;
+  font-family: Merriweather, serif;
+  text-decoration: none;
+  color: #fff;
+  margin: 0;
+  padding: .4rem 0;
+  font-size: 1.125rem;
+  border-color: #a63f38;
+  border-style: solid;
+  border-width: thin;
+  background-color: #d05c2e;
+}
+
+.home {
+  float: left;
+  width: 33.33%;
+}
+
+.cereals {
+  float: left;
+  width: 33.33%;
+}
+
+.legumes {
+  float: right;
+  width: 33.33%;
+}
+
+.nav a:hover {
+  background-color: #a63f38;
+}
+
+body {
+  margin: 0;
+  padding: .5em 0 0;
+  background-color: #d05c2e;
+}
+
+header {
+  background-color: #d05c2e;
+  margin: 0 0 .7rem;
+}
